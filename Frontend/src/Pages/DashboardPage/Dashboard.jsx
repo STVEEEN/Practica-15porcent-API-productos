@@ -54,11 +54,6 @@ const DashboardPage = () => {
           onClick={() => navigate('/products')} 
           variant="primary"
         />
-        <Button 
-          text="Ver Reportes" 
-          onClick={() => alert('Funcionalidad en desarrollo')}
-          variant="secondary"
-        />
       </div>
 
       <Card className="recent-products">
